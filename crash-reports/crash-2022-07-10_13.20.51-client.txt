@@ -1,0 +1,207 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  IELoadingPlugin (ImmersiveEngineering-core-0.12-98.jar)
+  ForgelinPlugin (Forgelin-1.8.4.jar)
+  Techguns Core (techguns-1.12.2-2.0.2.0_pre3.2.jar)
+  SecurityCraftLoadingPlugin ([1.12.2] SecurityCraft v1.9.2.jar)
+  ObfuscatePlugin (obfuscate-0.4.2-1.12.2.jar)
+  CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+  LucraftCoreCoreMod (LucraftCore-1.12.2-2.4.17.jar)
+Contact their authors BEFORE contacting forge
+
+// Daisy, daisy...
+
+Time: 7/10/22 1:20 PM
+Description: Unexpected error
+
+java.lang.NullPointerException: Unexpected error
+	at mod.mcreator.mcreator_space$KeyHandlerClass.onKeyInput(mcreator_space.java:76)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_989_KeyHandlerClass_onKeyInput_KeyInputEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraftforge.fml.common.FMLCommonHandler.fireKeyInput(FMLCommonHandler.java:565)
+	at net.minecraft.client.Minecraft.func_184118_az(Minecraft.java:2017)
+	at net.minecraft.client.Minecraft.func_71407_l(Minecraft.java:1808)
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1098)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:398)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at mod.mcreator.mcreator_space$KeyHandlerClass.onKeyInput(mcreator_space.java:76)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_989_KeyHandlerClass_onKeyInput_KeyInputEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraftforge.fml.common.FMLCommonHandler.fireKeyInput(FMLCommonHandler.java:565)
+	at net.minecraft.client.Minecraft.func_184118_az(Minecraft.java:2017)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['Trident_For_U'/1475, l='MpServer', x=237.65, y=69.96, z=101.34]]
+	Chunk stats: MultiplayerChunkCache: 441, 441
+	Level seed: 0
+	Level generator: ID 00 - default, ver 1. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (244,64,108), Chunk: (at 4,4,12 in 15,6; contains blocks 240,0,96 to 255,255,111), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 3298 game time, 3298 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Forced entities: 107 total; [EntityPiranha['Piranha'/1536, l='MpServer', x=198.50, y=53.00, z=95.50], EntityPiranha['Piranha'/1537, l='MpServer', x=196.50, y=50.00, z=91.50], EntityBat['Bat'/1543, l='MpServer', x=266.30, y=40.29, z=72.56], EntityPiranha['Piranha'/1544, l='MpServer', x=350.50, y=47.00, z=91.50], EntityPiranha['Piranha'/1545, l='MpServer', x=351.50, y=47.00, z=91.50], EntityPiranha['Piranha'/1546, l='MpServer', x=350.50, y=47.00, z=90.50], EntityPiranha['Piranha'/1547, l='MpServer', x=350.50, y=47.00, z=89.50], EntitySquid['Squid'/1548, l='MpServer', x=177.54, y=59.57, z=139.62], EntityPlayerSP['Trident_For_U'/1475, l='MpServer', x=237.65, y=69.96, z=101.34], BuilderEntityExisting['entity.mts_entity.name'/1805, l='MpServer', x=237.65, y=69.96, z=101.34], EntitySquid['Squid'/1551, l='MpServer', x=177.70, y=60.88, z=132.60], EntityAnthermite['Anthermite'/18, l='MpServer', x=181.50, y=67.00, z=41.50], EntityAnthermite['Anthermite'/19, l='MpServer', x=181.50, y=68.00, z=42.50], EntityAnthermite['Anthermite'/20, l='MpServer', x=177.50, y=68.00, z=41.50], EntitySquid['Squid'/1556, l='MpServer', x=202.60, y=52.40, z=103.40], EntityAnthermite['Anthermite'/21, l='MpServer', x=174.50, y=67.00, z=42.50], EntityPiranha['Piranha'/1557, l='MpServer', x=197.50, y=50.00, z=99.50], EntityAnthermite['Anthermite'/22, l='MpServer', x=174.50, y=68.00, z=44.50], EntityAnthermite['Anthermite'/32, l='MpServer', x=212.50, y=70.00, z=70.50], EntityAnthermite['Anthermite'/37, l='MpServer', x=202.17, y=68.00, z=74.03], EntityAnthermite['Anthermite'/38, l='MpServer', x=203.50, y=63.00, z=82.50], EntityAnthermite['Anthermite'/39, l='MpServer', x=202.50, y=63.00, z=81.50], EntityAnthermite['Anthermite'/41, l='MpServer', x=216.50, y=66.00, z=-11.50], EntityAnthermite['Anthermite'/42, l='MpServer', x=217.50, y=65.00, z=-11.50], EntityPiranha['Piranha'/1581, l='MpServer', x=158.50, y=46.00, z=186.50], EntityPiranha['Piranha'/1582, l='MpServer', x=159.50, y=46.00, z=184.50], EntityPiranha['Piranha'/1583, l='MpServer', x=162.50, y=46.00, z=183.50], EntityPiranha['Piranha'/1584, l='MpServer', x=164.50, y=46.00, z=185.50], EntityPiranha['Piranha'/1586, l='MpServer', x=128.50, y=48.00, z=127.50], EntityPiranha['Piranha'/1587, l='MpServer', x=120.83, y=50.00, z=123.60], EntityPiranha['Piranha'/1588, l='MpServer', x=123.50, y=48.00, z=119.50], EntityPiranha['Piranha'/1591, l='MpServer', x=179.50, y=47.00, z=107.50], EntityPiranha['Piranha'/1592, l='MpServer', x=181.50, y=47.00, z=108.50], EntityAnthermite['Anthermite'/57, l='MpServer', x=237.00, y=74.00, z=71.50], EntityPiranha['Piranha'/1593, l='MpServer', x=181.62, y=47.00, z=116.73], EntityAnthermite['Anthermite'/58, l='MpServer', x=240.02, y=73.00, z=77.15], EntityPiranha['Piranha'/1594, l='MpServer', x=176.50, y=47.00, z=113.50], EntityAnthermite['Anthermite'/60, l='MpServer', x=239.37, y=69.00, z=101.81], EntityPiranha['Piranha'/1598, l='MpServer', x=140.50, y=48.00, z=138.50], EntityPiranha['Piranha'/1600, l='MpServer', x=283.50, y=48.00, z=188.50], EntityPiranha['Piranha'/1601, l='MpServer', x=286.50, y=47.00, z=192.50], EntityPiranha['Piranha'/1602, l='MpServer', x=284.19, y=47.00, z=204.42], EntityPiranha['Piranha'/1604, l='MpServer', x=156.50, y=51.00, z=112.50], EntityAnthermite['Anthermite'/69, l='MpServer', x=268.50, y=73.00, z=134.50], EntityPiranha['Piranha'/1605, l='MpServer', x=155.50, y=52.00, z=113.50], EntityAnthermite['Anthermite'/70, l='MpServer', x=269.50, y=73.00, z=133.50], EntityPiranha['Piranha'/1606, l='MpServer', x=158.10, y=50.00, z=119.83], EntityAnthermite['Anthermite'/71, l='MpServer', x=270.50, y=72.00, z=124.50], EntityAnthermite['Anthermite'/72, l='MpServer', x=271.50, y=72.00, z=127.50], EntityAnthermite['Anthermite'/73, l='MpServer', x=271.50, y=72.00, z=128.50], EntityAnthermite['Anthermite'/74, l='MpServer', x=239.13, y=69.00, z=102.94], EntityAnthermite['Anthermite'/75, l='MpServer', x=240.34, y=69.00, z=105.68], EntityCow['Cow'/76, l='MpServer', x=280.16, y=72.00, z=136.24], EntityCow['Cow'/77, l='MpServer', x=288.22, y=71.00, z=132.60], EntityCow['Cow'/78, l='MpServer', x=275.50, y=72.00, z=134.50], EntityCow['Cow'/79, l='MpServer', x=273.50, y=73.00, z=131.50], EntityAnthermite['Anthermite'/89, l='MpServer', x=283.00, y=68.00, z=54.50], EntityAnthermite['Anthermite'/91, l='MpServer', x=277.56, y=72.00, z=62.77], EntityAnthermite['Anthermite'/92, l='MpServer', x=288.10, y=63.00, z=52.50], EntityAnthermite['Anthermite'/93, l='MpServer', x=286.50, y=71.00, z=56.50], EntityAnthermite['Anthermite'/94, l='MpServer', x=286.50, y=71.00, z=58.50], EntityAnthermite['Anthermite'/96, l='MpServer', x=280.50, y=71.00, z=59.50], EntityAnthermite['Anthermite'/97, l='MpServer', x=286.50, y=71.00, z=62.50], EntityAnthermite['Anthermite'/98, l='MpServer', x=288.50, y=71.00, z=62.50], EntityAnthermite['Anthermite'/99, l='MpServer', x=287.50, y=71.00, z=63.50], EntityAnthermite['Anthermite'/100, l='MpServer', x=288.50, y=71.00, z=66.50], EntityAnthermite['Anthermite'/101, l='MpServer', x=291.50, y=64.00, z=60.50], EntityAnthermite['Anthermite'/102, l='MpServer', x=289.50, y=70.00, z=58.50], EntityAnthermite['Anthermite'/104, l='MpServer', x=307.50, y=64.00, z=132.50], EntityAnthermite['Anthermite'/106, l='MpServer', x=304.82, y=67.00, z=129.86], EntityAnthermite['Anthermite'/107, l='MpServer', x=307.58, y=68.00, z=127.71], EntityAnthermite['Anthermite'/108, l='MpServer', x=304.50, y=68.00, z=125.50], EntityAnthermite['Anthermite'/113, l='MpServer', x=330.50, y=67.00, z=12.50], EntityAnthermite['Anthermite'/116, l='MpServer', x=332.50, y=68.00, z=116.50], EntityAnthermite['Anthermite'/120, l='MpServer', x=335.50, y=63.00, z=118.50], EntityAnthermite['Anthermite'/121, l='MpServer', x=335.50, y=63.00, z=114.86], EntityAnthermite['Anthermite'/123, l='MpServer', x=335.79, y=63.00, z=116.45], EntityAnthermite['Anthermite'/124, l='MpServer', x=342.73, y=64.00, z=108.19], EntityAnthermite['Anthermite'/126, l='MpServer', x=339.77, y=64.00, z=107.02], EntityAnthermite['Anthermite'/128, l='MpServer', x=343.50, y=63.00, z=109.50], EntityBat['Bat'/1674, l='MpServer', x=205.13, y=27.26, z=89.74], EntityBat['Bat'/1685, l='MpServer', x=225.36, y=29.38, z=169.61], BuilderEntityRenderForwarder['entity.mts_entity_renderer.name'/168, l='MpServer', x=238.70, y=71.69, z=101.71], EntityAnthermite['Anthermite'/1476, l='MpServer', x=155.50, y=66.00, z=-34.50], EntityAnthermite['Anthermite'/1477, l='MpServer', x=155.50, y=65.00, z=-36.50], EntityAnthermite['Anthermite'/1489, l='MpServer', x=269.50, y=63.00, z=-37.50], EntityAnthermite['Anthermite'/1490, l='MpServer', x=268.50, y=63.00, z=-34.50], EntityBat['Bat'/1746, l='MpServer', x=268.73, y=57.41, z=64.33], EntityAnthermite['Anthermite'/1491, l='MpServer', x=274.50, y=63.00, z=-34.50], EntityAnthermite['Anthermite'/1492, l='MpServer', x=274.50, y=63.00, z=-35.50], EntityAnthermite['Anthermite'/1493, l='MpServer', x=276.50, y=63.00, z=-33.50], EntityAnthermite['Anthermite'/1494, l='MpServer', x=275.50, y=63.00, z=-32.50], EntityPiranha['Piranha'/1519, l='MpServer', x=291.50, y=48.00, z=171.50], EntityPiranha['Piranha'/1520, l='MpServer', x=292.50, y=48.00, z=172.50], EntityPiranha['Piranha'/1521, l='MpServer', x=293.50, y=48.00, z=171.50], EntityPiranha['Piranha'/1522, l='MpServer', x=289.50, y=51.00, z=170.50], EntityPiranha['Piranha'/1527, l='MpServer', x=287.50, y=50.00, z=171.50], EntityPiranha['Piranha'/1528, l='MpServer', x=282.50, y=53.00, z=172.50], EntityBat['Bat'/1784, l='MpServer', x=217.67, y=55.49, z=90.18], EntityPiranha['Piranha'/1529, l='MpServer', x=282.50, y=52.00, z=173.50], EntityBat['Bat'/1785, l='MpServer', x=231.77, y=55.10, z=86.40], EntityPiranha['Piranha'/1530, l='MpServer', x=212.50, y=51.00, z=107.50], EntityPiranha['Piranha'/1531, l='MpServer', x=212.79, y=54.00, z=105.62], EntityPiranha['Piranha'/1532, l='MpServer', x=225.74, y=53.00, z=118.41], EntityPiranha['Piranha'/1533, l='MpServer', x=216.50, y=49.00, z=110.50], EntityPiranha['Piranha'/1534, l='MpServer', x=195.50, y=49.00, z=95.50], EntityPiranha['Piranha'/1535, l='MpServer', x=196.25, y=52.85, z=91.74]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.func_72914_a(WorldClient.java:420)
+	at net.minecraft.client.Minecraft.func_71396_d(Minecraft.java:2741)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:427)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 691142776 bytes (659 MB) / 4053270528 bytes (3865 MB) up to 8411152384 bytes (8021 MB)
+	JVM Flags: 3 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx9024m -Xms256m
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2859 62 mods loaded, 62 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID                      | Version           | Source                                          | Signature                                |
+	|:------ |:----------------------- |:----------------- |:----------------------------------------------- |:---------------------------------------- |
+	| LCHIJA | minecraft               | 1.12.2            | minecraft.jar                                   | None                                     |
+	| LCHIJA | mcp                     | 9.42              | minecraft.jar                                   | None                                     |
+	| LCHIJA | FML                     | 8.0.99.99         | forge-1.12.2-14.23.5.2859.jar                   | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJA | forge                   | 14.23.5.2859      | forge-1.12.2-14.23.5.2859.jar                   | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJA | obfuscate               | 0.4.2             | minecraft.jar                                   | None                                     |
+	| LCHIJA | techguns_core           | 1.12.2-1.0        | minecraft.jar                                   | None                                     |
+	| LCHIJA | mts                     | 21.2.0            | Immersive Vehicles-1.12.2-21.2.0.jar            | None                                     |
+	| LCHIJA | vkm59tbird              | 2                 | 1959_ford_thunderbird.jar                       | None                                     |
+	| LCHIJA | securitycraft           | v1.9.2            | [1.12.2] SecurityCraft v1.9.2.jar               | None                                     |
+	| LCHIJA | cgm                     | 0.15.3            | guns-0.15.3-1.12.2.jar                          | None                                     |
+	| LCHIJA | advancedrifles          | 0.6.0             | advancedrifles-0.6.0.jar                        | None                                     |
+	| LCHIJA | baubles                 | 1.5.2             | Baubles-1.12-1.5.2.jar                          | None                                     |
+	| LCHIJA | berzik                  | 0.1.4             | berzik+0.1.4.jar                                | None                                     |
+	| LCHIJA | biomesoplenty           | 7.0.1.2445        | BiomesOPlenty-1.12.2-7.0.1.2445-universal.jar   | None                                     |
+	| LCHIJA | blocklings              | 1.0               | Blocklings 6.0.1_b - 1.12.2.jar                 | None                                     |
+	| LCHIJA | ctm                     | MC1.12.2-1.0.2.31 | CTM-MC1.12.2-1.0.2.31.jar                       | None                                     |
+	| LCHIJA | crafttweaker            | 4.1.20            | CraftTweaker2-1.12-4.1.20.675.jar               | None                                     |
+	| LCHIJA | jei                     | 4.16.1.302        | jei_1.12.2-4.16.1.302.jar                       | None                                     |
+	| LCHIJA | chisel                  | MC1.12.2-1.0.2.45 | Chisel-MC1.12.2-1.0.2.45.jar                    | None                                     |
+	| LCHIJA | cjcm                    | 1.0               | cjcm-1.0.jar                                    | None                                     |
+	| LCHIJA | cosmeticarmorreworked   | 1.12.2-v5a        | CosmeticArmorReworked-1.12.2-v5a.jar            | aaaf83332a11df02406e9f266b1b65c1306f0f76 |
+	| LCHIJA | ctgui                   | 1.0.0             | CraftTweaker2-1.12-4.1.20.675.jar               | None                                     |
+	| LCHIJA | crafttweakerjei         | 2.0.3             | CraftTweaker2-1.12-4.1.20.675.jar               | None                                     |
+	| LCHIJA | cyclicmagic             | 1.20.12           | Cyclic-1.12.2-1.20.12.jar                       | 0e5cb559be7d03f3fc18b8cba547d663e25f28af |
+	| LCHIJA | cdm                     | 0.4.1             | device-mod-0.4.1-1.12.2.jar                     | None                                     |
+	| LCHIJA | deviceai                | 2.4               | Device AI-2.4.jar                               | None                                     |
+	| LCHIJA | display                 | 1.2.4             | Display-1.2.4.jar                               | None                                     |
+	| LCHIJA | dungeonsmod             | @VERSION@         | DungeonsMod-1.12.2-1.0.8.jar                    | None                                     |
+	| LCHIJA | enchdesc                | 1.1.20            | EnchantmentDescriptions-1.12.2-1.1.20.jar       | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LCHIJA | mantle                  | 1.12-1.3.3.55     | Mantle-1.12-1.3.3.55.jar                        | None                                     |
+	| LCHIJA | tconstruct              | 1.12.2-2.13.0.183 | TConstruct-1.12.2-2.13.0.183.jar                | None                                     |
+	| LCHIJA | extrautils2             | 1.0               | extrautils2-1.12-1.9.9.jar                      | None                                     |
+	| LCHIJA | forgelin                | 1.8.4             | Forgelin-1.8.4.jar                              | None                                     |
+	| LCHIJA | cfm                     | 6.3.1             | furniture-6.3.1-1.12.2.jar                      | None                                     |
+	| LCHIJA | overlord                | 2.4.14            | Overlord-1.12.2-2.4.14.jar                      | None                                     |
+	| LCHIJA | guideapi                | 1.12-2.1.8-63     | Guide-API-1.12-2.1.8-63.jar                     | None                                     |
+	| LCHIJA | hatstands               | 1.0.0             | hatstands-1.0.0-1.12.2.jar                      | None                                     |
+	| LCHIJA | healthbar               | 1.0.7             | HealthBar-1.12-1.0.7-23.jar                     | None                                     |
+	| LCHIJA | waila                   | 1.8.26            | Hwyla-1.8.26-B41_1.12.2.jar                     | None                                     |
+	| LCHIJA | tesla                   | 1.0.63            | Tesla-1.12.2-1.0.63.jar                         | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LCHIJA | teslacorelib            | 1.0.18            | tesla-core-lib-1.12.2-1.0.18.jar                | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LCHIJA | industrialforegoing     | 1.12.2-1.12.2     | industrialforegoing-1.12.2-1.12.13-237.jar      | None                                     |
+	| LCHIJA | lucraftcore             | 1.12.2-2.4.16     | LucraftCore-1.12.2-2.4.17.jar                   | None                                     |
+	| LCHIJA | infinity                | 1.12              | infinity-1.12.jar                               | None                                     |
+	| LCHIJA | ironchest               | 1.12.2-7.0.67.844 | ironchest-1.12.2-7.0.72.847.jar                 | None                                     |
+	| LCHIJA | ivv                     | 1.6.3             | IV_Vanity-1.6.4.jar                             | None                                     |
+	| LCHIJA | journeymap              | 1.12.2-5.7.1      | journeymap-1.12.2-5.7.1.jar                     | None                                     |
+	| LCHIJA | mechsoldiers            | 1.1.6             | MechSoldiers-1.12.2-1.1.6.jar                   | None                                     |
+	| LCHIJA | mutantbeasts            | 1.12.2-1.0.2      | MutantBeasts-1.12.2-1.0.2.jar                   | None                                     |
+	| LCHIJA | mysticalmechanics       | 0.18              | Mystical Mechanics-0.18.jar                     | None                                     |
+	| LCHIJA | patchouli               | 1.0-23.6          | Patchouli-1.0-23.6.jar                          | None                                     |
+	| LCHIJA | soulshardstow           | 1.12-2.7.6-56     | SoulShards-TOW-1.12-2.7.6-56.jar                | None                                     |
+	| LCHIJA | soulshardsrespawn       | 1.12.2-1.1.1-13   | SoulShardsRespawn-1.12.2-1.1.1-13.jar           | None                                     |
+	| LCHIJA | techguns                | 2.0.2.0           | techguns-1.12.2-2.0.2.0_pre3.2.jar              | None                                     |
+	| LCHIJA | timberjack              | 1.6               | Timberjack_1.12.2-1.6.jar                       | None                                     |
+	| LCHIJA | sm                      | 1.3               | TypicalHeroes-1.0.2.jar                         | None                                     |
+	| LCHIJA | unuparts                | 5.1.2             | UNU Parts Pack [MTS] 1.12.2-21.1.0-5.1.2.jar    | None                                     |
+	| LCHIJA | unumilitary             | 5.0.0             | UNU Military Pack [MTS] 1.12.2-21.1.0-BETA3.jar | None                                     |
+	| LCHIJA | vehicle                 | 0.44.1            | vehicle-mod-0.44.1-1.12.2.jar                   | None                                     |
+	| LCHIJA | worldedit               | 6.1.10            | worldedit-forge-mc1.12.2-6.1.10-dist.jar        | None                                     |
+	| LCHIJA | immersiveengineering    | 0.12-98           | ImmersiveEngineering-0.12-98.jar                | None                                     |
+	| LCHIJA | teslacorelib_registries | 1.0.18            | tesla-core-lib-1.12.2-1.0.18.jar                | None                                     |
+
+	Loaded coremods (and transformers): 
+IELoadingPlugin (ImmersiveEngineering-core-0.12-98.jar)
+  blusunrize.immersiveengineering.common.asm.IEClassTransformer
+ForgelinPlugin (Forgelin-1.8.4.jar)
+  
+Techguns Core (techguns-1.12.2-2.0.2.0_pre3.2.jar)
+  techguns.core.TechgunsASMTransformer
+SecurityCraftLoadingPlugin ([1.12.2] SecurityCraft v1.9.2.jar)
+  
+ObfuscatePlugin (obfuscate-0.4.2-1.12.2.jar)
+  com.mrcrayfish.obfuscate.asm.ObfuscateTransformer
+CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+  team.chisel.ctm.client.asm.CTMTransformer
+LucraftCoreCoreMod (LucraftCore-1.12.2-2.4.17.jar)
+  lucraft.mods.lucraftcore.core.LCTransformer
+	GL info: ' Vendor: 'Intel' Version: '4.6.0 - Build 30.0.101.1339' Renderer: 'Intel(R) UHD Graphics 620'
+	Pulsar/tconstruct loaded Pulses: 
+		- TinkerCommons (Enabled/Forced)
+		- TinkerWorld (Enabled/Not Forced)
+		- TinkerTools (Enabled/Not Forced)
+		- TinkerHarvestTools (Enabled/Forced)
+		- TinkerMeleeWeapons (Enabled/Forced)
+		- TinkerRangedWeapons (Enabled/Forced)
+		- TinkerModifiers (Enabled/Forced)
+		- TinkerSmeltery (Enabled/Not Forced)
+		- TinkerGadgets (Enabled/Not Forced)
+		- TinkerOredict (Enabled/Forced)
+		- TinkerIntegration (Enabled/Forced)
+		- TinkerFluids (Enabled/Forced)
+		- TinkerMaterials (Enabled/Forced)
+		- TinkerModelRegister (Enabled/Forced)
+		- chiselIntegration (Enabled/Not Forced)
+		- wailaIntegration (Enabled/Not Forced)
+
+	Patchouli open book context: n/a
+	Launched Version: forge-14.23.5.2859
+	LWJGL: 2.9.4
+	OpenGL: Intel(R) UHD Graphics 620 GL version 4.6.0 - Build 30.0.101.1339, Intel
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 8x Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz
