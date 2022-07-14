@@ -1,0 +1,22 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "cyclicmagic:block_fragile:0"
+          ]
+        }
+      },
+      "drops": [
+        {
+          "item": {
+            "items" : [
+              "minecraft:air"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
