@@ -1,0 +1,18 @@
+{
+  "id": "Invis_2083,72,6149",
+  "name": "Invis",
+  "icon": "waypoint-normal.png",
+  "x": 2083,
+  "y": 72,
+  "z": 6149,
+  "r": 175,
+  "g": 51,
+  "b": 201,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

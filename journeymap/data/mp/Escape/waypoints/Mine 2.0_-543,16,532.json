@@ -1,0 +1,18 @@
+{
+  "id": "Mine 2.0_-543,16,532",
+  "name": "Mine 2.0",
+  "icon": "waypoint-normal.png",
+  "x": -543,
+  "y": 16,
+  "z": 532,
+  "r": 142,
+  "g": 10,
+  "b": 62,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}
