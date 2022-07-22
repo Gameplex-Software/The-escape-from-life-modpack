@@ -2299,6 +2299,9 @@ thermalexpansion:florb:0, Florb (Empty§r)
 thermalexpansion:florb:1, Magmatic Florb (Empty§r)
 thermalexpansion:morb:0, Morb (Empty§r)
 thermalexpansion:morb:1, Reusable Morb (Empty§r)
+<<<<<<< HEAD
+>>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
+=======
 >>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
 chisel:blockaluminum:0, Block of Aluminum
 chisel:blockaluminum:1, Block of Aluminum
@@ -5016,6 +5019,7 @@ advancedrifles:crossbow, Crossbow
 advancedrifles:crossbow_dart, Crossbow Dart
 advancedrifles:advanced_shell, Advanced Shell
 <<<<<<< HEAD
+<<<<<<< HEAD
 aoa3:balloon, Balloon
 aoa3:limonite_bullet, Limonite Bullet
 aoa3:cannonball, Cannonball
@@ -7567,6 +7571,8 @@ aoa3:whimsy_winder, Whimsy Winder
 aoa3:withers_wrath, Wither's Wrath
 =======
 >>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
+=======
+>>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
 appliedenergistics2:quartz_ore, Certus Quartz Ore
 appliedenergistics2:charged_quartz_ore, Charged Certus Quartz Ore
 appliedenergistics2:matrix_frame, Matrix Frame
@@ -7948,7 +7954,10 @@ appliedenergistics2:facade:0, Cable Facade - Ferrous-Juniper Log
 appliedenergistics2:facade:0, Cable Facade - Ferrous-Juniper Planks
 appliedenergistics2:facade:0, Cable Facade - Raw Ferrous-Juniper Planks
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
 appliedenergistics2:facade:0, Cable Facade - Copper Ore
 appliedenergistics2:facade:0, Cable Facade - Tin Ore
 appliedenergistics2:facade:0, Cable Facade - Silver Ore
@@ -10931,6 +10940,7 @@ appliedenergistics2:facade:0, Cable Facade - Valkyrium Ore
 appliedenergistics2:facade:0, Cable Facade - Compacted Valkyrium
 appliedenergistics2:facade:0, Cable Facade - tile.ship_helm_wheel.name
 <<<<<<< HEAD
+<<<<<<< HEAD
 appliedenergistics2:facade:0, Cable Facade - Darkstone
 appliedenergistics2:facade:0, Cable Facade - §9Abyssal Stone
 appliedenergistics2:facade:0, Cable Facade - Dreadstone
@@ -11015,6 +11025,8 @@ appliedenergistics2:facade:0, Cable Facade - Abyssalnite Cobblestone Slab
 appliedenergistics2:facade:0, Cable Facade - Coralium Cobblestone Slab
 appliedenergistics2:facade:0, Cable Facade - Calcified Stone
 =======
+=======
+>>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
 appliedenergistics2:facade:0, Cable Facade - tile.sky_orchards.ore_log.name§r§r
 appliedenergistics2:facade:0, Cable Facade - tile.sky_orchards.ore_leaves.name§r§r
 appliedenergistics2:facade:0, Cable Facade - tile.sky_orchards.ore_amber.name§r§r
@@ -11030,6 +11042,9 @@ appliedenergistics2:facade:0, Cable Facade - tile.sky_orchards.ore_amber.name§r
 appliedenergistics2:facade:0, Cable Facade - tile.sky_orchards.ore_log.name§r§r
 appliedenergistics2:facade:0, Cable Facade - tile.sky_orchards.ore_leaves.name§r§r
 appliedenergistics2:facade:0, Cable Facade - tile.sky_orchards.ore_amber.name§r§r
+<<<<<<< HEAD
+>>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
+=======
 >>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
 appliedenergistics2:facade:0, Cable Facade - Copper Ore
 appliedenergistics2:facade:0, Cable Facade - Copper Block
@@ -14329,6 +14344,7 @@ tconstruct:slime_vine_purple_mid:0, Purple Slimy Vine
 tconstruct:slime_vine_purple:0, Purple Slimy Vine
 tconstruct:pattern:0, Blank Pattern
 <<<<<<< HEAD
+<<<<<<< HEAD
 tconstruct:pattern:0, Shovel Head Pattern
 tconstruct:pattern:0, Kama Head Pattern
 tconstruct:pattern:0, Sign Plate Pattern
@@ -14358,6 +14374,8 @@ tconstruct:pattern:0, Excavator Head Pattern
 tconstruct:pattern:0, Sword Blade Pattern
 tconstruct:pattern:0, Hand Guard Pattern
 =======
+=======
+>>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
 tconstruct:pattern:0, Pickaxe Head Pattern
 tconstruct:pattern:0, Tough Binding Pattern
 tconstruct:pattern:0, Excavator Head Pattern
@@ -14386,6 +14404,9 @@ tconstruct:pattern:0, Bowstring Pattern
 tconstruct:pattern:0, Sign Plate Pattern
 tconstruct:pattern:0, Scythe Head Pattern
 tconstruct:pattern:0, Shovel Head Pattern
+<<<<<<< HEAD
+>>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
+=======
 >>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
 tconstruct:shard:0, Baronyte Shard
 tconstruct:shard:0, Blazium Shard
@@ -16355,6 +16376,7 @@ tconstruct:tooltables:1, Stencil Table
 tconstruct:tooltables:1, Stencil Table
 tconstruct:tooltables:1, Stencil Table
 <<<<<<< HEAD
+<<<<<<< HEAD
 tconstruct:tooltables:1, Stencil Table
 tconstruct:tooltables:1, Stencil Table
 tconstruct:tooltables:1, Stencil Table
@@ -16372,6 +16394,8 @@ tconstruct:tooltables:1, Stencil Table
 tconstruct:tooltables:1, Stencil Table
 tconstruct:tooltables:1, Stencil Table
 tconstruct:tooltables:1, Stencil Table
+=======
+>>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
 =======
 >>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
 tconstruct:tooltables:4, Pattern Chest
@@ -16422,6 +16446,7 @@ tconstruct:tooltables:2, Part Builder
 tconstruct:tooltables:2, Part Builder
 tconstruct:tooltables:2, Part Builder
 <<<<<<< HEAD
+<<<<<<< HEAD
 tconstruct:tooltables:2, Part Builder
 tconstruct:tooltables:2, Part Builder
 tconstruct:tooltables:2, Part Builder
@@ -16440,6 +16465,8 @@ tconstruct:tooltables:2, Part Builder
 tconstruct:tooltables:2, Part Builder
 tconstruct:tooltables:2, Part Builder
 tconstruct:tooltables:2, Part Builder
+=======
+>>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
 =======
 >>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
 tconstruct:tooltables:5, Part Chest
@@ -16481,6 +16508,7 @@ tconstruct:toolforge:0, Tool Forge
 tconstruct:toolforge:0, Tool Forge
 tconstruct:toolforge:0, Tool Forge
 <<<<<<< HEAD
+<<<<<<< HEAD
 tconstruct:toolforge:0, Tool Forge
 tconstruct:toolforge:0, Tool Forge
 tconstruct:toolforge:0, Tool Forge
@@ -16490,6 +16518,8 @@ tconstruct:toolforge:0, Tool Forge
 tconstruct:toolforge:0, Tool Forge
 tconstruct:toolforge:0, Tool Forge
 tconstruct:toolforge:0, Tool Forge
+=======
+>>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
 =======
 >>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
 tconstruct:pickaxe, Pickaxe
@@ -16563,6 +16593,7 @@ tconstruct:seared_stairs_tile:0, Seared Tile Stairs
 tconstruct:seared_stairs_creeper:0, Seared Creeperface Stairs
 tconstruct:cast:0, Blank Cast
 <<<<<<< HEAD
+<<<<<<< HEAD
 tconstruct:cast:0, Shovel Head Cast
 tconstruct:cast:0, Kama Head Cast
 tconstruct:cast:0, Sign Plate Cast
@@ -16590,6 +16621,9 @@ tconstruct:cast:0, Sword Blade Cast
 tconstruct:cast:0, Hand Guard Cast
 =======
 tconstruct:cast:0, Pickaxe Head Cast
+=======
+tconstruct:cast:0, Pickaxe Head Cast
+>>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
 tconstruct:cast:0, Tough Binding Cast
 tconstruct:cast:0, Excavator Head Cast
 tconstruct:cast:0, Hand Guard Cast
@@ -16614,6 +16648,9 @@ tconstruct:cast:0, Wide Guard Cast
 tconstruct:cast:0, Sign Plate Cast
 tconstruct:cast:0, Scythe Head Cast
 tconstruct:cast:0, Shovel Head Cast
+<<<<<<< HEAD
+>>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
+=======
 >>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
 tconstruct:cast_custom:0, Ingot Cast
 tconstruct:cast_custom:1, Nugget Cast
@@ -16621,6 +16658,7 @@ tconstruct:cast_custom:2, Gem Cast
 tconstruct:cast_custom:3, Plate Cast
 tconstruct:cast_custom:4, Gear Cast
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
+<<<<<<< HEAD
 <<<<<<< HEAD
 tconstruct:clay_cast:0, Shovel Head Clay Cast
 tconstruct:clay_cast:0, Kama Head Clay Cast
@@ -16649,6 +16687,9 @@ tconstruct:clay_cast:0, Sword Blade Clay Cast
 tconstruct:clay_cast:0, Hand Guard Clay Cast
 =======
 tconstruct:clay_cast:0, Pickaxe Head Clay Cast
+=======
+tconstruct:clay_cast:0, Pickaxe Head Clay Cast
+>>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
 tconstruct:clay_cast:0, Tough Binding Clay Cast
 tconstruct:clay_cast:0, Excavator Head Clay Cast
 tconstruct:clay_cast:0, Hand Guard Clay Cast
@@ -16673,6 +16714,9 @@ tconstruct:clay_cast:0, Wide Guard Clay Cast
 tconstruct:clay_cast:0, Sign Plate Clay Cast
 tconstruct:clay_cast:0, Scythe Head Clay Cast
 tconstruct:clay_cast:0, Shovel Head Clay Cast
+<<<<<<< HEAD
+>>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
+=======
 >>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
 tconstruct:stone_torch:0, Stone Torch
 tconstruct:stone_ladder:0, Stone Ladder
@@ -17290,7 +17334,10 @@ overlord:skeleton_maker, Skeleton Warrior Maker
 overlord:baby_skeleton_maker, Baby Skeleton Maker
 hatstands:hat_stand, Hat Stand
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
 ironman:suit_constructor, Suit Constructor
 ironman:sensor_suit_chestplate, item.sensor_suitChestplate.name
 ironman:sensor_suit_legs, item.sensor_suitLegs.name
@@ -17430,6 +17477,9 @@ speedsterheroes:comic_flash_helmet, item.speedsterheroes:comic_flash_helmet.name
 speedsterheroes:comic_flash_chest, item.speedsterheroes:comic_flash_chestplate.name
 speedsterheroes:comic_flash_legs, item.speedsterheroes:comic_flash_legs.name
 speedsterheroes:comic_flash_boots, item.speedsterheroes:comic_flash_boots.name
+<<<<<<< HEAD
+>>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
+=======
 >>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
 lucraftcore:infinity_gauntlet, Infinity Gauntlet
 lucraftcore:infinity_gauntlet_cast, Infinity Gauntlet Cast
@@ -18272,6 +18322,7 @@ immersivepetroleum:upgrades:3, Maneuvering Rudders
 immersivepetroleum:upgrades:4, Emergency Paddles
 immersivepetroleum:oil_can, Lubricant Can
 <<<<<<< HEAD
+<<<<<<< HEAD
 teslacorelib:base_addon, Base Addon
 teslacorelib:energy_tier1, Energy Upgrade I
 teslacorelib:energy_tier2, Energy Upgrade II
@@ -18281,12 +18332,15 @@ teslacorelib:speed_tier2, Speed Upgrade II
 teslacorelib:wrench, Tesla Wrench
 =======
 >>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
+=======
+>>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
 infinity:power_stone, Power Stone
 infinity:mind_stone, Mind Stone
 infinity:reality_stone, Reality Stone
 infinity:soul_stone, Soul Stone
 infinity:time_stone, Time Stone
 infinity:space_stone, Space Stone
+<<<<<<< HEAD
 <<<<<<< HEAD
 ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
 ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
@@ -18306,6 +18360,8 @@ ironchest:diamond_crystal_shulker_upgrade, Diamond to Crystal Shulker Box Upgrad
 ironchest:vanilla_iron_shulker_upgrade, Vanilla to Iron Shulker Box Upgrade
 ironchest:vanilla_copper_shulker_upgrade, Vanilla to Copper Shulker Box Upgrade
 ironchest:diamond_obsidian_shulker_upgrade, Diamond to Obsidian Shulker Box Upgrade
+=======
+>>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
 =======
 >>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
 ironchest:iron_chest:0, Iron Chest
@@ -18488,6 +18544,7 @@ mutantbeasts:mutant_skeleton_chestplate, Mutant Skeleton Chestplate
 mutantbeasts:mutant_skeleton_leggings, Mutant Skeleton Leggings
 mutantbeasts:mutant_skeleton_boots, Mutant Skeleton Boots
 <<<<<<< HEAD
+<<<<<<< HEAD
 realfilingcabinet:emptyfolder:0, Filing Folder (Empty)
 realfilingcabinet:emptyfolder:1, Durability Folder (Empty)
 realfilingcabinet:emptyfolder:2, Mob Folder (Empty)
@@ -18530,6 +18587,8 @@ realfilingcabinet:key:0, Master Key
 realfilingcabinet:key:1, Key Copy
 realfilingcabinet:modelcabinet, Filing Cabinet
 =======
+=======
+>>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
 mysticalagriculture:storage:0, §eBlock of Inferium Essence
 mysticalagriculture:storage:1, §aBlock of Prudentium Essence
 mysticalagriculture:storage:2, §6Block of Intermedium Essence
@@ -19105,6 +19164,9 @@ pymtech:wasp_helmet, Wasp's Helmet
 pymtech:wasp_chest, Wasp's Chestpiece
 pymtech:wasp_legs, Wasp's Pants
 pymtech:wasp_boots, Wasp's Boots
+<<<<<<< HEAD
+>>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
+=======
 >>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
 soulshardstow:soul_shard:0, Unbound Soul Shard
 soulshardstow:soul_shard:0, Unbound Soul Shard
@@ -19526,6 +19588,9 @@ torchmaster:mega_torch:1, Unlit Mega Torch
 torchmaster:terrain_lighter, Terrain Lighter
 torchmaster:dread_lamp, Dread Lamp
 torchmaster:feral_flare_lantern, Feral Flare Lantern
+<<<<<<< HEAD
+>>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
+=======
 >>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
 vehicle:traffic_cone, Traffic Cone
 vehicle:boost_pad, Boost Pad
@@ -19602,6 +19667,7 @@ vs_control:rudder_part, Rudder Part
 vs_control:giant_propeller_part, Giant Propeller Part
 vs_control:rotation_axle, Rotation Axle
 vs_control:gearbox, Gearbox
+<<<<<<< HEAD
 <<<<<<< HEAD
 teslacorelib:gear_diamond, Diamond Gear
 teslacorelib:gear_gold, Gold Gear
@@ -20187,6 +20253,8 @@ abyssalcraft:configurator_shard:1, Spirit Tablet Shard #2
 abyssalcraft:configurator_shard:2, Spirit Tablet Shard #3
 abyssalcraft:configurator_shard:3, Spirit Tablet Shard #4
 =======
+=======
+>>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
 waystones:waystone, Waystone
 waystones:return_scroll, Return Scroll
 waystones:bound_scroll, Bound Scroll
@@ -20227,6 +20295,9 @@ sky_orchards:resin_redstone, item.sky_orchards.resin_redstone.name
 sky_orchards:acorn_diamond:0, item.sky_orchards.ore_acorn.name§r
 sky_orchards:acorn_diamond:1, item.sky_orchards.ore_acorn_roasted.name§r
 sky_orchards:resin_diamond, item.sky_orchards.resin_diamond.name
+<<<<<<< HEAD
+>>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
+=======
 >>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
 cyclicmagic:block_fragile, Fragile Scaffolding
 cyclicmagic:block_fragile_auto, Responsive Scaffolding
@@ -20343,6 +20414,7 @@ lucraftcore:dust_uru, Uru Dust
 lucraftcore:nugget_uru, Uru Nugget
 lucraftcore:plate_uru, Uru Plate
 lucraftcore:ore_nickel, Nickel Ore
+<<<<<<< HEAD
 <<<<<<< HEAD
 lucraftcore:ore_vibranium, Vibranium Ore
 lucraftcore:ore_copper, Copper Ore
@@ -20542,6 +20614,8 @@ industrialforegoing:conveyor:14, Red§r Conveyor Belt
 industrialforegoing:conveyor:15, Black§r Conveyor Belt
 industrialforegoing:black_hole_label, Black Hole Label
 =======
+=======
+>>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
 lucraftcore:ore_silver, Silver Ore
 lucraftcore:ore_copper, Copper Ore
 lucraftcore:ore_titanium, Titanium Ore
@@ -20572,6 +20646,9 @@ lucraftcore:block_lead, Lead Block
 lucraftcore:block_vibranium, Vibranium Block
 lucraftcore:block_iridium, Iridium Block
 lucraftcore:block_steel, Steel Block
+<<<<<<< HEAD
+>>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
+=======
 >>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
 lycanitesmobs:shadowstonebrick_stairs, Shadowstone Brick Stairs
 lycanitesmobs:demonstonebrick_stairs, Demonstone Brick Stairs
