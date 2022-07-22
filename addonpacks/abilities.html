@@ -18,6 +18,26 @@ th,td.true,td.false,td.other{text-align:center;}
 <li><a href="#infinity:saturation">infinity.abilities.saturation.name</a></li>
 <li><a href="#infinity:locate">infinity.abilities.locate.name</a></li>
 </ul>
+<<<<<<< HEAD
+=======
+<h1>SpeedsterHeroes</h1>
+<ul>
+<li><a href="#speedsterheroes:super_speed">Super Speed</a></li>
+<li><a href="#speedsterheroes:change_speed">speedsterheroes.abilities.change_speed.name</a></li>
+<li><a href="#speedsterheroes:water_running">Water Running</a></li>
+<li><a href="#speedsterheroes:wall_running">Wall Running</a></li>
+<li><a href="#speedsterheroes:phasing">Phasing</a></li>
+<li><a href="#speedsterheroes:lightning_throw">Lightning Throwing</a></li>
+<li><a href="#speedsterheroes:arm_vortex">Arm Vortex</a></li>
+<li><a href="#speedsterheroes:blade">Blade</a></li>
+<li><a href="#speedsterheroes:dimension_breach">Dimension Breaches</a></li>
+<li><a href="#speedsterheroes:time_remnant">Time Remnant</a></li>
+<li><a href="#speedsterheroes:suit_ring">Suit Ring</a></li>
+<li><a href="#speedsterheroes:change_blocks">Change Block</a></li>
+<li><a href="#speedsterheroes:save_block">Save Block</a></li>
+<li><a href="#speedsterheroes:turn_into_bubbles">Turn Into Bubbles</a></li>
+</ul>
+>>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
 <h1>HeroesExpansion</h1>
 <ul>
 <li><a href="#heroesexpansion:god_mode">God Mode</a></li>
@@ -42,6 +62,15 @@ th,td.true,td.false,td.other{text-align:center;}
 <li><a href="#heroesexpansion:freeze_breath">Freeze Breath</a></li>
 <li><a href="#heroesexpansion:x_ray">X-Ray Vision</a></li>
 </ul>
+<<<<<<< HEAD
+=======
+<h1>IronMan</h1>
+<ul>
+<li><a href="#ironman:exit_suit">ironman.abilities.exit_suit.name</a></li>
+<li><a href="#ironman:faceplate">ironman.abilities.faceplate.name</a></li>
+<li><a href="#ironman:toggle_flight">ironman.abilities.toggle_flight.name</a></li>
+</ul>
+>>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
 <h1>Lucraft: Core</h1>
 <ul>
 <li><a href="#lucraftcore:toggle_power">Toggle Power</a></li>
@@ -74,6 +103,756 @@ th,td.true,td.false,td.other{text-align:center;}
 <li><a href="#lucraftcore:command_on_lose">Command On Lose</a></li>
 <li><a href="#lucraftcore:set_punch">Punch</a></li>
 </ul>
+<h1>PymTech</h1>
+<ul>
+<li><a href="#pymtech:pym_particle_size">Pym Particles</a></li>
+<li><a href="#pymtech:regulator">Regulator</a></li>
+<li><a href="#pymtech:shrink_suit">Shrink Suit</a></li>
+</ul>
+
+<hr>
+<p><h1 id="ironman:exit_suit">ironman.abilities.exit_suit.name</h1>
+<h3>ironman:exit_suit</h3>
+Type: ACTION</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "ironman:exit_suit",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"ironman.abilities.exit_suit.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray"<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"ironman.abilities.exit_suit.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="ironman:faceplate">ironman.abilities.faceplate.name</h1>
+<h3>ironman:faceplate</h3>
+Type: ACTION</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "ironman:faceplate",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"ironman.abilities.faceplate.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray"<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"ironman.abilities.faceplate.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="ironman:toggle_flight">ironman.abilities.toggle_flight.name</h1>
+<h3>ironman:toggle_flight</h3>
+Type: ACTION</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "ironman:toggle_flight",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"ironman.abilities.toggle_flight.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray"<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"ironman.abilities.toggle_flight.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="speedsterheroes:super_speed">Super Speed</h1>
+<h3>speedsterheroes:super_speed</h3>
+Type: TOGGLE</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "speedsterheroes:super_speed",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"speedsterheroes.abilities.super_speed.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray",<br>
+  "base_speed_levels": 1,<br>
+  "gives_xp": false<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"speedsterheroes.abilities.super_speed.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br><tr>
+<td><code>base_speed_levels</code></td>
+<td><code>Integer</code></td>
+<td><code>1</code></td>
+<td><p>The base number of speed levels the ability gets.</p>
+</td></tr><br><tr>
+<td><code>gives_xp</code></td>
+<td><code>Boolean</code></td>
+<td><code>false</code></td>
+<td><p>Whether or not the ability gives xp.</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="speedsterheroes:change_speed">speedsterheroes.abilities.change_speed.name</h1>
+<h3>speedsterheroes:change_speed</h3>
+Type: ACTION</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "speedsterheroes:change_speed",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"speedsterheroes.abilities.change_speed.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray",<br>
+  "accelerate": false<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"speedsterheroes.abilities.change_speed.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br><tr>
+<td><code>accelerate</code></td>
+<td><code>Boolean</code></td>
+<td><code>false</code></td>
+<td><p>Whether this ability increases or decreases speed levels.</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="speedsterheroes:water_running">Water Running</h1>
+<h3>speedsterheroes:water_running</h3>
+Type: CONSTANT</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "speedsterheroes:water_running",<br>
+  "show_in_bar": false,<br>
+  "title": {"translate":"speedsterheroes.abilities.water_running.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray",<br>
+  "speed": 1.0<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>false</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"speedsterheroes.abilities.water_running.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br><tr>
+<td><code>speed</code></td>
+<td><code>Float</code></td>
+<td><code>1.0</code></td>
+<td><p>The minimum speed required to walk on water.</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="speedsterheroes:wall_running">Wall Running</h1>
+<h3>speedsterheroes:wall_running</h3>
+Type: TOGGLE</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "speedsterheroes:wall_running",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"speedsterheroes.abilities.wall_running.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray",<br>
+  "speed": 1.0<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"speedsterheroes.abilities.wall_running.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br><tr>
+<td><code>speed</code></td>
+<td><code>Float</code></td>
+<td><code>1.0</code></td>
+<td><p>The minimum speed required to wall run.</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="speedsterheroes:phasing">Phasing</h1>
+<h3>speedsterheroes:phasing</h3>
+Type: HELD</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "speedsterheroes:phasing",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"speedsterheroes.abilities.phasing.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray"<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"speedsterheroes.abilities.phasing.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="speedsterheroes:lightning_throw">Lightning Throwing</h1>
+<h3>speedsterheroes:lightning_throw</h3>
+Type: ACTION</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "speedsterheroes:lightning_throw",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"speedsterheroes.abilities.lightning_throw.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray"<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"speedsterheroes.abilities.lightning_throw.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="speedsterheroes:arm_vortex">Arm Vortex</h1>
+<h3>speedsterheroes:arm_vortex</h3>
+Type: HELD</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "speedsterheroes:arm_vortex",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"speedsterheroes.abilities.arm_vortex.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray",<br>
+  "distance": 1.0<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"speedsterheroes.abilities.arm_vortex.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br><tr>
+<td><code>distance</code></td>
+<td><code>Float</code></td>
+<td><code>1.0</code></td>
+<td><p>The distance the vortex extends.</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="speedsterheroes:blade">Blade</h1>
+<h3>speedsterheroes:blade</h3>
+Type: TOGGLE</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "speedsterheroes:blade",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"speedsterheroes.abilities.blade.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray"<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"speedsterheroes.abilities.blade.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="speedsterheroes:dimension_breach">Dimension Breaches</h1>
+<h3>speedsterheroes:dimension_breach</h3>
+Type: ACTION</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "speedsterheroes:dimension_breach",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"speedsterheroes.abilities.dimension_breach.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray"<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"speedsterheroes.abilities.dimension_breach.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="speedsterheroes:time_remnant">Time Remnant</h1>
+<h3>speedsterheroes:time_remnant</h3>
+Type: ACTION</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "speedsterheroes:time_remnant",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"speedsterheroes.abilities.time_remnant.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray"<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"speedsterheroes.abilities.time_remnant.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="speedsterheroes:suit_ring">Suit Ring</h1>
+<h3>speedsterheroes:suit_ring</h3>
+Type: ACTION</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "speedsterheroes:suit_ring",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"speedsterheroes.abilities.suit_ring.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray"<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"speedsterheroes.abilities.suit_ring.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="speedsterheroes:change_blocks">Change Block</h1>
+<h3>speedsterheroes:change_blocks</h3>
+Type: ACTION</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "speedsterheroes:change_blocks",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"speedsterheroes.abilities.change_blocks.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray"<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"speedsterheroes.abilities.change_blocks.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="speedsterheroes:save_block">Save Block</h1>
+<h3>speedsterheroes:save_block</h3>
+Type: ACTION</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "speedsterheroes:save_block",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"speedsterheroes.abilities.save_block.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray"<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"speedsterheroes.abilities.save_block.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="speedsterheroes:turn_into_bubbles">Turn Into Bubbles</h1>
+<h3>speedsterheroes:turn_into_bubbles</h3>
+Type: ACTION</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "speedsterheroes:turn_into_bubbles",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"speedsterheroes.abilities.turn_into_bubbles.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray"<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"speedsterheroes.abilities.turn_into_bubbles.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br></table>
 
 <hr>
 <p><h1 id="lucraftcore:toggle_power">Toggle Power</h1>
@@ -2637,4 +3416,151 @@ Type: CONSTANT</p><br>
 <td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
 </td></tr><br></table>
 
+<<<<<<< HEAD
+=======
+<hr>
+<p><h1 id="pymtech:pym_particle_size">Pym Particles</h1>
+<h3>pymtech:pym_particle_size</h3>
+Type: ACTION</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "pymtech:pym_particle_size",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"pymtech.abilities.pym_particle_size.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray",<br>
+  "size": 0.1<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"pymtech.abilities.pym_particle_size.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br><tr>
+<td><code>size</code></td>
+<td><code>Float</code></td>
+<td><code>0.1</code></td>
+<td><p>Sets the size you want to change to</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="pymtech:regulator">Regulator</h1>
+<h3>pymtech:regulator</h3>
+Type: ACTION</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "pymtech:regulator",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"pymtech.abilities.regulator.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray",<br>
+  "advanced": false<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"pymtech.abilities.regulator.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br><tr>
+<td><code>advanced</code></td>
+<td><code>Boolean</code></td>
+<td><code>false</code></td>
+<td><p>Determines if you have access to the advanced regulator GUI</p>
+</td></tr><br></table>
+
+<hr>
+<p><h1 id="pymtech:shrink_suit">Shrink Suit</h1>
+<h3>pymtech:shrink_suit</h3>
+Type: ACTION</p><br>
+<p>Example:<br>
+<code>"example_ability": {<br>
+  "ability": "pymtech:shrink_suit",<br>
+  "cooldown": 0,<br>
+  "show_in_bar": true,<br>
+  "title": {"translate":"pymtech.abilities.shrink_suit.name"},<br>
+  "icon": { "type": "internal" },<br>
+  "bar_color": "light_gray",<br>
+  "advanced": true<br>
+}</code>
+<table>
+<tr><th>Setting</th><th>Type</th><th>Default</th><th>Description</th></tr>
+<tr>
+<td><code>cooldown</code></td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td><p>Maximum cooldown for using this ability</p>
+</td></tr><br><tr>
+<td><code>show_in_bar</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if this ability should be displayed in the ability bar</p>
+</td></tr><br><tr>
+<td><code>title</code></td>
+<td><code>ITextComponent</code></td>
+<td><code>{"translate":"pymtech.abilities.shrink_suit.name"}</code></td>
+<td><p>Allows you to set a custom title for this ability</p>
+</td></tr><br><tr>
+<td><code>icon</code></td>
+<td><code>AbilityDataIcon$Icon</code></td>
+<td><code>{ "type": "internal" }</code></td>
+<td><p>Lets you customize the icon for the ability</p>
+</td></tr><br><tr>
+<td><code>bar_color</code></td>
+<td><code>EnumAbilityBarColor</code></td>
+<td><code>"light_gray"</code></td>
+<td><p>Lets you choose the color of the ability bar frame for this ability. Available options: white, orange, magenta, light_blue, yellow, lime, pink, gray, light_gray, cyan, purple, blue, brown, green, red, black</p>
+</td></tr><br><tr>
+<td><code>advanced</code></td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td><p>Determines if you need Pym Particles to shrink the suit</p>
+</td></tr><br></table>
+
+>>>>>>> 6434be92994335bb458c911d6d53bffc6c463996
 </body></html>
