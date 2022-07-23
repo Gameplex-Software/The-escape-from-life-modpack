@@ -25,7 +25,7 @@ chatLinks:true
 chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:true
-fullscreen:true
+fullscreen:false
 enableVsync:true
 useVbo:true
 hideServerAddress:false
@@ -171,7 +171,7 @@ key_techguns.key.toggleStepassist:47
 key_techguns.key.forceReload:19
 key_techguns.key.toggleJetpack:36
 key_WorldEdit Reference:38
-soundCategory_master:0.0033112583
+soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
