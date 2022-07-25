@@ -1,0 +1,108 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 106
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 40e5c2d3-cd2d-495c-81b5-fca0a25e13d71658726396018
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 157
+  action = deep_customization_element:title_screen_branding
+  actionid = ccc40874-560e-4aed-b335-fe4eb0a1f2261658726396021
+  y = 228
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 251
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = d84e5a28-513a-409a-825d-ad82bbbb8e491658726396021
+  y = 250
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 343
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 936a967c-bed4-4c57-ae6c-36415f1728441658726396022
+  y = 167
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 103
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 3bc67587-296f-4730-9a8c-6765dbdd54ba1658726396022
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 25ad17ed-ec96-471e-ac11-2b8bc88834061658726396022
+  y = 0
+  height = 30
+}
+
+customization {
+  path = resource/yourmommy.png
+  orientation = top-centered
+  x = -203
+  width = 407
+  actionid = 91bdd018-b089-439a-a579-f167a0b9779d1658726417774
+  action = addtexture
+  y = 23
+  height = 70
+}
+
+customization {
+  showname = true
+  orientation = mid-left
+  crouching = false
+  x = 42
+  slim = false
+  actionid = 87480d88-cb58-4c9f-adb5-5e47e7163c3d1658726505402
+  action = addentity
+  y = 55
+  scale = 40
+  playername = %playername%
+  parrot = false
+}
+

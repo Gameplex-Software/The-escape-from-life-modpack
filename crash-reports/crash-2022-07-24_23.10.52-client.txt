@@ -1,0 +1,289 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  FMCore (fancymenu_forge_2.11.1_MC_1.12-1.12.2.jar)
+  IELoadingPlugin (ImmersiveEngineering-core-0.12-98.jar)
+  ForgelinPlugin (Forgelin-1.8.4.jar)
+  AppleCore (AppleCore-mc1.12.2-3.4.0.jar)
+  SecurityCraftLoadingPlugin ([1.12.2] SecurityCraft v1.9.2.jar)
+  RenderLibPlugin (RenderLib-1.12.2-1.1.0.jar)
+  ObfuscatePlugin (obfuscate-0.4.2-1.12.2.jar)
+  iceandfire (iceandfire-1.9.1-1.12.2.jar)
+  CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+  LucraftCoreCoreMod (LucraftCore-1.12.2-2.4.17.jar)
+  Born in a Barn (Born In A Barn V1.8-1.12-1.1.jar)
+  LoadingPlugin (Bloodmoon-MC1.12.2-1.5.3.jar)
+  Plugin (NotEnoughIDs-1.5.4.4.jar)
+  llibrary (llibrary-core-1.0.11-1.12.2.jar)
+  MixinLoaderForge ([[valkyrien-skies-1.1.7-all]].jar)
+  Techguns Core (techguns-1.12.2-2.0.2.0_pre3.2.jar)
+  FutureMC (future-mc-0.2.10.1.jar)
+  KonkreteCore (konkrete_forge_1.4.0_MC_1.12-1.12.2.jar)
+Contact their authors BEFORE contacting forge
+
+// I let you down. Sorry :(
+
+Time: 7/24/22 11:10 PM
+Description: Updating screen events
+
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.util.zip.ZipCoder.getBytes(ZipCoder.java:80)
+	at java.util.zip.ZipFile.getEntry(ZipFile.java:311)
+	at java.util.jar.JarFile.getEntry(JarFile.java:240)
+	at java.util.jar.JarFile.getJarEntry(JarFile.java:223)
+	at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1005)
+	at sun.misc.URLClassPath$JarLoader.findResource(URLClassPath.java:983)
+	at sun.misc.URLClassPath.findResource(URLClassPath.java:188)
+	at java.net.URLClassLoader$2.run(URLClassLoader.java:569)
+	at java.net.URLClassLoader$2.run(URLClassLoader.java:567)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findResource(URLClassLoader.java:566)
+	at java.lang.ClassLoader.getResource(ClassLoader.java:1093)
+	at java.lang.Class.getResource(Class.java:2267)
+	at net.minecraft.client.resources.DefaultResourcePack.func_110605_c(SourceFile:55)
+	at net.minecraft.client.resources.DefaultResourcePack.func_110589_b(SourceFile:68)
+	at net.minecraft.client.resources.FallbackResourceManager.func_110536_a(FallbackResourceManager.java:56)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110536_a(SimpleReloadableResourceManager.java:65)
+	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:155)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:110)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:91)
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:159)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110544_b(SimpleReloadableResourceManager.java:132)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110541_a(SimpleReloadableResourceManager.java:112)
+	at net.minecraft.client.Minecraft.func_110436_a(Minecraft.java:808)
+	at net.minecraftforge.fml.client.FMLClientHandler.refreshResources(FMLClientHandler.java:1128)
+	at net.minecraftforge.fml.client.FMLClientHandler.refreshResources(FMLClientHandler.java:1121)
+	at net.minecraft.client.gui.GuiLanguage$List.func_148144_a(GuiLanguage.java:111)
+	at net.minecraft.client.gui.GuiSlot.func_178039_p(GuiSlot.java:270)
+	at net.minecraft.client.gui.GuiLanguage.func_146274_d(GuiLanguage.java:43)
+	at net.minecraft.client.gui.GuiScreen.func_146269_k(GuiScreen.java:501)
+	at net.minecraft.client.Minecraft.func_71407_l(Minecraft.java:1759)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at java.util.zip.ZipCoder.getBytes(ZipCoder.java:80)
+	at java.util.zip.ZipFile.getEntry(ZipFile.java:311)
+	at java.util.jar.JarFile.getEntry(JarFile.java:240)
+	at java.util.jar.JarFile.getJarEntry(JarFile.java:223)
+	at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1005)
+	at sun.misc.URLClassPath$JarLoader.findResource(URLClassPath.java:983)
+	at sun.misc.URLClassPath.findResource(URLClassPath.java:188)
+	at java.net.URLClassLoader$2.run(URLClassLoader.java:569)
+	at java.net.URLClassLoader$2.run(URLClassLoader.java:567)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findResource(URLClassLoader.java:566)
+	at java.lang.ClassLoader.getResource(ClassLoader.java:1093)
+	at java.lang.Class.getResource(Class.java:2267)
+	at net.minecraft.client.resources.DefaultResourcePack.func_110605_c(SourceFile:55)
+	at net.minecraft.client.resources.DefaultResourcePack.func_110589_b(SourceFile:68)
+	at net.minecraft.client.resources.FallbackResourceManager.func_110536_a(FallbackResourceManager.java:56)
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110536_a(SimpleReloadableResourceManager.java:65)
+	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:155)
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:110)
+	at net.minecraft.client.renderer.texture.TextureMap.func_174943_a(TextureMap.java:91)
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:159)
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28)
+
+-- Affected screen --
+Details:
+	Screen name: net.minecraft.client.gui.GuiLanguage
+Stacktrace:
+	at net.minecraft.client.Minecraft.func_71407_l(Minecraft.java:1764)
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1098)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:398)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 703672976 bytes (671 MB) / 5607784448 bytes (5348 MB) up to 5607784448 bytes (5348 MB)
+	JVM Flags: 3 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx6016m -Xms256m
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2859 91 mods loaded, 91 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID                      | Version             | Source                                         | Signature                                |
+	|:------ |:----------------------- |:------------------- |:---------------------------------------------- |:---------------------------------------- |
+	| LCHIJA | minecraft               | 1.12.2              | minecraft.jar                                  | None                                     |
+	| LCHIJA | mcp                     | 9.42                | minecraft.jar                                  | None                                     |
+	| LCHIJA | FML                     | 8.0.99.99           | forge-1.12.2-14.23.5.2859.jar                  | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJA | forge                   | 14.23.5.2859        | forge-1.12.2-14.23.5.2859.jar                  | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJA | obfuscate               | 0.4.2               | minecraft.jar                                  | None                                     |
+	| LCHIJA | techguns_core           | 1.12.2-1.0          | minecraft.jar                                  | None                                     |
+	| LCHIJA | securitycraft           | v1.9.2              | [1.12.2] SecurityCraft v1.9.2.jar              | None                                     |
+	| LCHIJA | valkyrienskies          | 1.1.7               | [[valkyrien-skies-1.1.7-all]].jar              | None                                     |
+	| LCHIJA | crafttweaker            | 4.1.20              | CraftTweaker2-1.12-4.1.20.675.jar              | None                                     |
+	| LCHIJA | jei                     | 4.16.1.302          | jei_1.12.2-4.16.1.302.jar                      | None                                     |
+	| LCHIJA | abyssalcraft            | 1.10.4              | AbyssalCraft-1.12.2-1.10.4.jar                 | 220f10d3a93b3ff5fbaa7434cc629d863d6751b9 |
+	| LCHIJA | cgm                     | 0.15.3              | guns-0.15.3-1.12.2.jar                         | None                                     |
+	| LCHIJA | advancedrifles          | 0.6.0               | advancedrifles-0.6.0.jar                       | None                                     |
+	| LCHIJA | aiimprovements          | 0.0.1.3             | AIImprovements-1.12-0.0.1b3.jar                | None                                     |
+	| LCHIJA | aoa3                    | 3.3.6               | AoA3-3.3.6.jar                                 | 8bddeac148843f40e0b9f69201be2f4b3071700d |
+	| LCHIJA | applecore               | 3.4.0               | AppleCore-mc1.12.2-3.4.0.jar                   | None                                     |
+	| LCHIJA | appleskin               | 1.0.14              | AppleSkin-mc1.12-1.0.14.jar                    | None                                     |
+	| LCHIJA | ctm                     | MC1.12.2-1.0.2.31   | CTM-MC1.12.2-1.0.2.31.jar                      | None                                     |
+	| LCHIJA | appliedenergistics2     | rv6-stable-7        | appliedenergistics2-rv6-stable-7.jar           | dfa4d3ac143316c6f32aa1a1beda1e34d42132e5 |
+	| LCHIJA | appliedintegrations     | 8.0.16.7            | AppliedIntegrations-1.12.2-e2884e6f.jar        | None                                     |
+	| LCHIJA | aquaculture             | 1.6.8               | Aquaculture-1.12.2-1.6.8.jar                   | None                                     |
+	| LCHIJA | baubles                 | 1.5.2               | Baubles-1.12-1.5.2.jar                         | None                                     |
+	| LCHIJA | biomesoplenty           | 7.0.1.2445          | BiomesOPlenty-1.12.2-7.0.1.2445-universal.jar  | None                                     |
+	| LCHIJA | blocklings              | 1.0                 | Blocklings 6.0.1_b - 1.12.2.jar                | None                                     |
+	| LCHIJA | bloodmoon               | 1.5.3               | Bloodmoon-MC1.12.2-1.5.3.jar                   | d72e0dd57935b3e9476212aea0c0df352dd76291 |
+	| LCHIJA | chisel                  | MC1.12.2-1.0.2.45   | Chisel-MC1.12.2-1.0.2.45.jar                   | None                                     |
+	| LCHIJA | cjcm                    | 1.0                 | cjcm-1.0.jar                                   | None                                     |
+	| LCHIJA | clumps                  | 3.1.2               | Clumps-3.1.2.jar                               | None                                     |
+	| LCHIJA | codechickenlib          | 3.2.3.358           | CodeChickenLib-1.12.2-3.2.3.358-universal.jar  | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LCHIJA | redstoneflux            | 2.1.1               | RedstoneFlux-1.12-2.1.1.1-universal.jar        | None                                     |
+	| LCHIJA | cofhcore                | 4.6.6               | CoFHCore-1.12.2-4.6.6.1-universal.jar          | None                                     |
+	| LCHIJA | cofhworld               | 1.4.0               | CoFHWorld-1.12.2-1.4.0.1-universal.jar         | None                                     |
+	| LCHIJA | cosmeticarmorreworked   | 1.12.2-v5a          | CosmeticArmorReworked-1.12.2-v5a.jar           | aaaf83332a11df02406e9f266b1b65c1306f0f76 |
+	| LCHIJA | ctgui                   | 1.0.0               | CraftTweaker2-1.12-4.1.20.675.jar              | None                                     |
+	| LCHIJA | crafttweakerjei         | 2.0.3               | CraftTweaker2-1.12-4.1.20.675.jar              | None                                     |
+	| LCHIJA | fastbench               | 1.7.3               | FastWorkbench-1.12.2-1.7.3.jar                 | None                                     |
+	| LCHIJA | cyclicmagic             | 1.20.12             | Cyclic-1.12.2-1.20.12.jar                      | 0e5cb559be7d03f3fc18b8cba547d663e25f28af |
+	| LCHIJA | cdm                     | 0.4.1               | device-mod-0.4.1-1.12.2.jar                    | None                                     |
+	| LCHIJA | display                 | 1.2.4               | Display-1.2.4.jar                              | None                                     |
+	| LCHIJA | dungeonsmod             | @VERSION@           | DungeonsMod-1.12.2-1.0.8.jar                   | None                                     |
+	| LCHIJA | epicsiegemod            | 13.167              | EpicSiegeMod-13.167.jar                        | None                                     |
+	| LCHIJA | motnt                   | 1.0.1               | EvenMoreTNT-1.0.1.jar                          | None                                     |
+	| LCHIJA | mantle                  | 1.12-1.3.3.55       | Mantle-1.12-1.3.3.55.jar                       | None                                     |
+	| LCHIJA | tconstruct              | 1.12.2-2.13.0.183   | TConstruct-1.12.2-2.13.0.183.jar               | None                                     |
+	| LCHIJA | extrautils2             | 1.0                 | extrautils2-1.12-1.9.9.jar                     | None                                     |
+	| LCHIJA | familiarfauna           | 1.0.11              | FamiliarFauna-1.12.2-1.0.11.jar                | None                                     |
+	| LCHIJA | konkrete                | 1.4.0               | konkrete_forge_1.4.0_MC_1.12-1.12.2.jar        | None                                     |
+	| LCHIJA | fancymenu               | 2.11.1              | fancymenu_forge_2.11.1_MC_1.12-1.12.2.jar      | None                                     |
+	| LCHIJA | fastfurnace             | 1.3.1               | FastFurnace-1.12.2-1.3.1.jar                   | None                                     |
+	| LCHIJA | forgelin                | 1.8.4               | Forgelin-1.8.4.jar                             | None                                     |
+	| LCHIJA | cfm                     | 6.3.1               | furniture-6.3.1-1.12.2.jar                     | None                                     |
+	| LCHIJA | futuremc                | 0.2.6               | future-mc-0.2.10.1.jar                         | None                                     |
+	| LCHIJA | overlord                | 2.4.14              | Overlord-1.12.2-2.4.14.jar                     | None                                     |
+	| LCHIJA | guideapi                | 1.12-2.1.8-63       | Guide-API-1.12-2.1.8-63.jar                    | None                                     |
+	| LCHIJA | hatstands               | 1.0.0               | hatstands-1.0.0-1.12.2.jar                     | None                                     |
+	| LCHIJA | healthbar               | 1.0.7               | HealthBar-1.12-1.0.7-23.jar                    | None                                     |
+	| LCHIJA | waila                   | 1.8.26              | Hwyla-1.8.26-B41_1.12.2.jar                    | None                                     |
+	| LCHIJA | llibrary                | 1.7.20              | llibrary-1.7.20-1.12.2.jar                     | b9f30a813bee3b9dd5652c460310cfcd54f6b7ec |
+	| LCHIJA | iceandfire              | 1.9.1               | iceandfire-1.9.1-1.12.2.jar                    | None                                     |
+	| LCHIJA | thermalfoundation       | 2.6.7               | ThermalFoundation-1.12.2-2.6.7.1-universal.jar | None                                     |
+	| LCHIJA | immersiveengineering    | 0.12-98             | ImmersiveEngineering-0.12-98.jar               | None                                     |
+	| LCHIJA | immersivepetroleum      | 1.1.10              | immersivepetroleum-1.12.2-1.1.10.jar           | None                                     |
+	| LCHIJA | tesla                   | 1.0.63              | Tesla-1.12.2-1.0.63.jar                        | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LCHIJA | teslacorelib            | 1.0.18              | tesla-core-lib-1.12.2-1.0.18.jar               | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LCHIJA | industrialforegoing     | 1.12.2-1.12.2       | industrialforegoing-1.12.2-1.12.13-237.jar     | None                                     |
+	| LCHIJA | ironchest               | 1.12.2-7.0.67.844   | ironchest-1.12.2-7.0.72.847.jar                | None                                     |
+	| LCHIJA | lucraftcore             | 1.12.2-2.4.16       | LucraftCore-1.12.2-2.4.17.jar                  | None                                     |
+	| LCHIJA | lycanitesmobs           | 2.0.8.5 - MC 1.12.2 | lycanitesmobs-1.12.2-2.0.8.5.jar               | None                                     |
+	| LCHIJA | mechsoldiers            | 1.1.6               | MechSoldiers-1.12.2-1.1.6.jar                  | None                                     |
+	| LCHIJA | more_creepers           | 1.0.0               | MoreCreepers_4.0.0.jar                         | None                                     |
+	| LCHIJA | mutantbeasts            | 1.12.2-1.0.2        | MutantBeasts-1.12.2-1.0.2.jar                  | None                                     |
+	| LCHIJA | mysticalmechanics       | 0.18                | Mystical Mechanics-0.18.jar                    | None                                     |
+	| LCHIJA | neid                    | 1.5.4.4             | NotEnoughIDs-1.5.4.4.jar                       | None                                     |
+	| LCHIJA | harvestcraft            | 1.12.2zb            | Pam's HarvestCraft 1.12.2zg.jar                | None                                     |
+	| LCHIJA | patchouli               | 1.0-23.6            | Patchouli-1.0-23.6.jar                         | None                                     |
+	| LCHIJA | placebo                 | 1.6.0               | Placebo-1.12.2-1.6.0.jar                       | None                                     |
+	| LCHIJA | realfilingcabinet       | 0.2.0.20            | realfilingcabinet-1.12-0.2.0.20.jar            | None                                     |
+	| LCHIJA | renderlib               | 1.1.0               | RenderLib-1.12.2-1.1.0.jar                     | None                                     |
+	| LCHIJA | additionalstructures    | 2.5.0               | Rex's-AdditionalStructures-1.12.x(v.2.5.0).jar | None                                     |
+	| LCHIJA | soulshardstow           | 1.12-2.7.6-56       | SoulShards-TOW-1.12-2.7.6-56.jar               | None                                     |
+	| LCHIJA | soulshardsrespawn       | 1.12.2-1.1.1-13     | SoulShardsRespawn-1.12.2-1.1.1-13.jar          | None                                     |
+	| LCHIJA | spiceoflife             | 1.3.12              | SpiceOfLife-mc1.12-1.3.12.jar                  | None                                     |
+	| LCHIJA | techguns                | 2.0.2.0             | techguns-1.12.2-2.0.2.0_pre3.2.jar             | None                                     |
+	| LCHIJA | thermalexpansion        | 5.5.7               | ThermalExpansion-1.12.2-5.5.7.1-universal.jar  | None                                     |
+	| LCHIJA | timberjack              | 1.6                 | Timberjack_1.12.2-1.6.jar                      | None                                     |
+	| LCHIJA | tp                      | 3.2.34              | tinyprogressions-1.12.2-3.3.34-Release.jar     | None                                     |
+	| LCHIJA | vehicle                 | 0.44.1              | vehicle-mod-0.44.1-1.12.2.jar                  | None                                     |
+	| LCHIJA | vs_world                | 1.12.2-1.0.0        | vs-world-1.12.2-1.0.0.jar                      | None                                     |
+	| LCHIJA | vs_control              | 1.12.2-1.1.1        | vs-control-1.12.2-1.1.1.jar                    | None                                     |
+	| LCHIJA | worldedit               | 6.1.10              | worldedit-forge-mc1.12.2-6.1.10-dist.jar       | None                                     |
+	| LCHIJA | teslacorelib_registries | 1.0.18              | tesla-core-lib-1.12.2-1.0.18.jar               | None                                     |
+
+	Loaded coremods (and transformers): 
+FMCore (fancymenu_forge_2.11.1_MC_1.12-1.12.2.jar)
+  
+IELoadingPlugin (ImmersiveEngineering-core-0.12-98.jar)
+  blusunrize.immersiveengineering.common.asm.IEClassTransformer
+ForgelinPlugin (Forgelin-1.8.4.jar)
+  
+AppleCore (AppleCore-mc1.12.2-3.4.0.jar)
+  squeek.applecore.asm.TransformerModuleHandler
+SecurityCraftLoadingPlugin ([1.12.2] SecurityCraft v1.9.2.jar)
+  
+RenderLibPlugin (RenderLib-1.12.2-1.1.0.jar)
+  meldexun.renderlib.asm.RenderLibClassTransformer
+ObfuscatePlugin (obfuscate-0.4.2-1.12.2.jar)
+  com.mrcrayfish.obfuscate.asm.ObfuscateTransformer
+iceandfire (iceandfire-1.9.1-1.12.2.jar)
+  com.github.alexthe666.iceandfire.patcher.IceAndFireRuntimePatcher
+CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+  team.chisel.ctm.client.asm.CTMTransformer
+LucraftCoreCoreMod (LucraftCore-1.12.2-2.4.17.jar)
+  lucraft.mods.lucraftcore.core.LCTransformer
+Born in a Barn (Born In A Barn V1.8-1.12-1.1.jar)
+  com.chocohead.biab.BornInABarn
+LoadingPlugin (Bloodmoon-MC1.12.2-1.5.3.jar)
+  lumien.bloodmoon.asm.ClassTransformer
+Plugin (NotEnoughIDs-1.5.4.4.jar)
+  ru.fewizz.neid.asm.Transformer
+llibrary (llibrary-core-1.0.11-1.12.2.jar)
+  net.ilexiconn.llibrary.server.core.plugin.LLibraryTransformer
+  net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
+MixinLoaderForge ([[valkyrien-skies-1.1.7-all]].jar)
+  
+Techguns Core (techguns-1.12.2-2.0.2.0_pre3.2.jar)
+  techguns.core.TechgunsASMTransformer
+FutureMC (future-mc-0.2.10.1.jar)
+  thedarkcolour.futuremc.asm.CoreTransformer
+KonkreteCore (konkrete_forge_1.4.0_MC_1.12-1.12.2.jar)
+  
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 516.59' Renderer: 'NVIDIA GeForce RTX 2060 SUPER/PCIe/SSE2'
+	AE2 Version: stable rv6-stable-7 for Forge 14.23.5.2768
+	Pulsar/tconstruct loaded Pulses: 
+		- TinkerCommons (Enabled/Forced)
+		- TinkerWorld (Enabled/Not Forced)
+		- TinkerTools (Enabled/Not Forced)
+		- TinkerHarvestTools (Enabled/Forced)
+		- TinkerMeleeWeapons (Enabled/Forced)
+		- TinkerRangedWeapons (Enabled/Forced)
+		- TinkerModifiers (Enabled/Forced)
+		- TinkerSmeltery (Enabled/Not Forced)
+		- TinkerGadgets (Enabled/Not Forced)
+		- TinkerOredict (Enabled/Forced)
+		- TinkerIntegration (Enabled/Forced)
+		- TinkerFluids (Enabled/Forced)
+		- TinkerMaterials (Enabled/Forced)
+		- TinkerModelRegister (Enabled/Forced)
+		- chiselIntegration (Enabled/Not Forced)
+		- wailaIntegration (Enabled/Not Forced)
+
+	Patchouli open book context: n/a
+	AE2 Integration: IC2:OFF, RC:OFF, MFR:OFF, Waila:ON, InvTweaks:OFF, JEI:ON, Mekanism:OFF, OpenComputers:OFF, THE_ONE_PROBE:OFF, TESLA:ON, CRAFTTWEAKER:ON
+	Launched Version: forge-14.23.5.2859
+	LWJGL: 2.9.4
+	OpenGL: NVIDIA GeForce RTX 2060 SUPER/PCIe/SSE2 GL version 4.6.0 NVIDIA 516.59, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 12x AMD Ryzen 5 3600 6-Core Processor 

@@ -1,0 +1,45 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMultiplayer
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = bottom-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = joinserver
+  x = -230
+  width = 73
+  actionid = b2d4b36d-0e93-41f5-b83c-7dce6c36f1011658726797978
+  action = addbutton
+  y = -52
+  label = Epic Server
+  value = gameplexsoftware.com:50018
+  height = 20
+}
+
+customization {
+  orientation = bottom-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = 157
+  width = 76
+  actionid = 768e0b81-8846-4417-9dc5-166d69811de71658727080165
+  action = addbutton
+  y = -52
+  label = RPM Hosting
+  value = https://gameplexsoftware.com/rpm/
+  height = 20
+}
+

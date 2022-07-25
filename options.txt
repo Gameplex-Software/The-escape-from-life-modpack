@@ -25,7 +25,7 @@ chatLinks:true
 chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:true
-fullscreen:false
+fullscreen:true
 enableVsync:true
 useVbo:true
 hideServerAddress:false
@@ -100,6 +100,8 @@ key_Zepplin Airship Turn Left:75
 key_Zepplin Airship Turn Right:77
 key_Zepplin Airship Down:74
 key_Zepplin Airship Stop:76
+key_Reload Menu | CTRL + ALT + :19
+key_Toggle Customization Overlay | CTRL + ALT + :46
 key_key.staff_mode.desc:50
 key_key.use_cage.desc:49
 key_key.configurator_mode.desc:47
@@ -147,13 +149,6 @@ key_key.cofh.multimode:47
 key_key.keyExtraInvo:45
 key_key.keyWheel:19
 key_key.keyExtraCraftin:0
-key_lucraftcore.abilitybar.up:0
-key_lucraftcore.abilitybar.down:0
-key_lucraftcore.abilitybar.1:45
-key_lucraftcore.abilitybar.2:46
-key_lucraftcore.abilitybar.3:47
-key_lucraftcore.abilitybar.4:48
-key_lucraftcore.abilitybar.5:49
 key_waila.keybind.wailaconfig:82
 key_waila.keybind.wailadisplay:79
 key_waila.keybind.liquid:80
@@ -165,6 +160,13 @@ key_key.dragon_down:45
 key_key.dragon_change_view:65
 key_key.immersiveengineering.magnetEquip:31
 key_key.immersiveengineering.chemthrowerSwitch:0
+key_lucraftcore.abilitybar.up:0
+key_lucraftcore.abilitybar.down:0
+key_lucraftcore.abilitybar.1:45
+key_lucraftcore.abilitybar.2:46
+key_lucraftcore.abilitybar.3:47
+key_lucraftcore.abilitybar.4:48
+key_lucraftcore.abilitybar.5:49
 key_techguns.key.toggleNightvision:49
 key_techguns.key.toggleSafemode:48
 key_techguns.key.toggleStepassist:47
