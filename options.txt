@@ -14,7 +14,7 @@ fboEnable:true
 difficulty:1
 fancyGraphics:false
 ao:1
-renderClouds:fast
+renderClouds:false
 resourcePacks:[]
 incompatibleResourcePacks:[]
 lastServer:
@@ -109,7 +109,7 @@ key_key.configurator_filter.desc:48
 key_key.configurator_path.desc:34
 key_key.aim:56
 key_key.reload:19
-key_key.unload:22
+key_key.unload:0
 key_key.cstats:0
 key_key.resources:24
 key_key.skills:0
@@ -145,6 +145,7 @@ key_key.jei.nextPage:209
 key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
 key_key.toggle_focus.desc:15
+key_Activate Set Effect:19
 key_key.cofh.multimode:47
 key_key.keyExtraInvo:45
 key_key.keyWheel:19
@@ -173,7 +174,7 @@ key_techguns.key.toggleStepassist:47
 key_techguns.key.forceReload:19
 key_techguns.key.toggleJetpack:36
 key_WorldEdit Reference:38
-soundCategory_master:0.0
+soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
